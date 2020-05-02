@@ -1,8 +1,13 @@
 package problems.medium.p0152;
 
 public class Solution {
-    public int maxProduct(int[] nums) {
+
+	public static void main(String[] args) {
         //152. Maximum Product Subarray
+
+	}
+	
+    public int maxProduct(int[] nums) {
     	
         if(nums.length == 1)
             return nums[0];
