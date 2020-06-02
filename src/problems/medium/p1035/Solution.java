@@ -1,4 +1,4 @@
-package problems.medium.p01035;
+package problems.medium.p1035;
 
 public class Solution {
 

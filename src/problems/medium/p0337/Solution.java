@@ -1,5 +1,6 @@
 package problems.medium.p0337;
 
+import problems.TreeNode;
 import problems.medium.*;
 
 public class Solution {

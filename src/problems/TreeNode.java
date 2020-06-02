@@ -1,4 +1,4 @@
-package problems.medium;
+package problems;
 
 public class TreeNode {
 	public int val;

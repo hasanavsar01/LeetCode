@@ -1,7 +1,8 @@
 package problems.medium.p0098;
 
 import java.util.*;
-import problems.medium.TreeNode;
+
+import problems.TreeNode;
 
 public class Solution {
 
