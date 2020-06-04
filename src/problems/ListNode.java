@@ -1,4 +1,4 @@
-package problems.hard;
+package problems;
 
 public class ListNode {
 	public int val;

@@ -1,7 +1,8 @@
 package problems.hard.p0023;
 
 import java.util.*;
-import problems.hard.ListNode;
+
+import problems.ListNode;
 
 public class Solution {
 

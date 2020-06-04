@@ -1,4 +1,4 @@
-package problems.easy.p371;
+package problems.easy.p0371;
 
 public class Solution {
 
