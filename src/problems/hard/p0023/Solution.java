@@ -35,4 +35,36 @@ public class Solution {
         return result;
     }
 
+    // Better approach
+    public ListNode mergeKLists2(ListNode[] lists) {
+        
+        Queue<ListNode> pq = new PriorityQueue<ListNode>(
+            new Comparator<ListNode>(){
+                public int compare(ListNode l1, ListNode l2){
+                    return l1.val - l2.val;
+                }
+            }
+        );
+        
+        for(ListNode node : lists){
+            while(node != null){
+                pq.add(node);
+                node = node.next;
+            }
+        }
+        
+        if(pq.isEmpty())
+            return null;
+        
+        ListNode head = pq.poll();
+        ListNode temp = head;
+        
+        while(!pq.isEmpty()){
+            temp.next = pq.poll();
+            temp = temp.next;
+        }
+        temp.next = null;
+        
+        return head;
+    }
 }
